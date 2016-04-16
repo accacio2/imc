@@ -3,8 +3,14 @@ package br.gov.unipe;
 
 public class CalculoIMC 
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
+
+	
+	public float calculoIMC( float peso, float altura){
+		
+
+		imc = peso / (altura * 2);
+		
+		return imc;
+	}
+	
 }
